@@ -37,6 +37,7 @@ Los componentes del código, luego de que el código sea validado, irán a nuest
 |    M     | R        | 46        | 0012       |
 |    F     | P        | 38        | 0125       |
 |    X     | R        | 20        | 0012       |
+
 *prototipo de clave primaria de la tabla "productos"*
 
 Como se puede observar, este tipo de codificación nos permite clasificar y ordenar las prendas de manera sencilla e intuitiva sin perder la condición de unicidad de cada producto dentro del sistema.
