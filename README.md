@@ -1,30 +1,31 @@
 # TP1 Ingeniería del Software II
 
 *Alumnos integrantes:*
-	Camargo, Amir.
-	Jiance, Kiara.
-	Melero, Tania.
-	Morales, Juan P.
-	Pillack, Juan P.
-	Sebestyen, Kiara.
+---
+Camargo, Amir.
+Jiance, Kiara.
+Melero, Tania.
+Morales, Juan P.
+Sebestyen, Kiara.
+
 
 ## VALIDACIONES:
 
-| Atributo                | Validación                                                                                       |
-| ----------------------- | ------------------------------------------------------------------------------------------------ |
-| Código de producto      | Tipo de dato: INTEGER; No debe existir en el sistema previamente; Debe ser mayor o igual a cero. |
-| Nombre de producto      | Tipo de dato: VARCHAR; Limitado a 255 caracteres.                                                |
-| Descripción de producto | Tipo de dato: TEXT;                                                                              |
-| Stock inicial           | Tipo de dato: INTEGER; Debe ser mayor que cero.                                                  |
-| Punto de pedido         | Tipo de dato: INTEGER; Debe ser mayor que cero.                                                  |
-| Fecha de compra         | Tipo de dato: DATE; Debe ser una fecha menor a la fecha actual.                                  |
-| Código de proveedor     | Tipo de dato: INTEGER; No debe existir en el sistema previamente; Debe ser mayor o igual a cero. |
-| Precio de compra        | Tipo de dato: FLOAT; Debe ser mayor o igual a cero.                                              |
+| Atributo                | Validación                                                                                                                                                                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Código de producto      | Tipo de dato: VARCHAR; No debe existir en el sistema previamente; Debe tener 8 caracteres; Los 2 primeros caracteres deben ser letras; Los últimos 6 caracteres deben ser casteables a INTEGER; No se deben aceptar caracteres no alfanuméricos. |
+| Nombre de producto      | Tipo de dato: VARCHAR; Limitado a 255 caracteres.                                                                                                                                                                                                |
+| Descripción de producto | Tipo de dato: TEXT;                                                                                                                                                                                                                              |
+| Stock inicial           | Tipo de dato: INTEGER; Debe ser mayor que cero.                                                                                                                                                                                                  |
+| Punto de pedido         | Tipo de dato: INTEGER; Debe ser mayor que cero.                                                                                                                                                                                                  |
+| Fecha de compra         | Tipo de dato: DATE; Debe ser una fecha menor a la fecha actual.                                                                                                                                                                                  |
+| Código de proveedor     | Tipo de dato: INTEGER; No debe existir en el sistema previamente; Debe ser mayor o igual a cero.                                                                                                                                                 |
+| Precio de compra        | Tipo de dato: FLOAT; Debe ser mayor o igual a cero.                                                                                                                                                                                              |
 
 
 ## CODIFICACIÓN:
 #### PRODUCTOS:
-Para la codificación de los **productos** elegimos un tipo de código de origen alfabético y ablocado múltiple con el siguiente formato: ==**A.A.00.0000**==
+Para la codificación de los **productos** elegimos un tipo de código de origen alfabético con el siguiente formato: **A-A-00-0000**
 - Donde la primer A representa la categoría de sexo (M/F/X) del producto pedido por el cliente.
 - La segunda A representa el tipo de prenda ("R" para las Remeras, "P" para los Pantalones)
 - Los dos números siguientes representan el talle (del 00 al 99)
