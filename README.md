@@ -8,7 +8,7 @@
 - Sebestyen, Kiara.
 
 ## INTERFAZ DE USUARIO
-*link:* [text](https://www.figma.com/design/68eAEVn3a3Hqpb3gVTpWtr/Diseño-de-interfaz-de-usuario?node-id=0-1&t=CGksOoFLWRwiSUzc-0)
+*Ver en Figma:* [click acá](https://www.figma.com/design/68eAEVn3a3Hqpb3gVTpWtr/Diseño-de-interfaz-de-usuario?node-id=0-1&t=CGksOoFLWRwiSUzc-0)
 #### Wireframe
 ![Wireframe](WIREFRAME.png "Wireframe")
 
