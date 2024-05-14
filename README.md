@@ -7,6 +7,13 @@
 - Morales, Juan P.
 - Sebestyen, Kiara.
 
+## INTERFAZ DE USUARIO
+*link:* [text](https://www.figma.com/design/68eAEVn3a3Hqpb3gVTpWtr/Diseño-de-interfaz-de-usuario?node-id=0-1&t=CGksOoFLWRwiSUzc-0)
+#### Wireframe
+![Wireframe](WIREFRAME.png "Wireframe")
+
+#### Prototipo
+![Prototipo](PROTOTIPO.png "Prototipo")
 
 ## VALIDACIONES:
 
